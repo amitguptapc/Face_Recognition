@@ -11,7 +11,7 @@
 import cv2
 import numpy as np
 
-# Initilize camera
+# Initialize camera
 cap = cv2.VideoCapture(0)
 # Face detection using Haarcascade Classifier
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
